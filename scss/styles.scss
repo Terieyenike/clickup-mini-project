@@ -1,2 +1,8 @@
 @import './globals/reset';
 @import './globals/fonts';
+@import './globals/colors';
+@import './util/functions';
+
+body {
+  font-size: rem(40);
+}
