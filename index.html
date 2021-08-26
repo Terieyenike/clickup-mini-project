@@ -49,8 +49,8 @@
   <body>
     <header>
       <nav class="navbar navbar_container">
-        <a href="#" class="navbar__logo">
-          <img src="./img/logo.svg" alt="clickup logo" />
+        <a href="#">
+          <img src="./img/logo.svg" class="navbar__logo" alt="clickup logo" />
         </a>
         <div class="navbar__toggle"></div>
 
@@ -90,19 +90,21 @@
         <img src="./img/image1 1.svg" alt="save your data" />
       </section>
 
-      <section class="level level_container">
-        <img src="./img/image2.svg" alt="girl multi-tasking" />
-        <div class="level__content">
-          <h2 class="level__content-heading">
-            We are a high-level data storage bank
-          </h2>
-          <p class="level__content-text">
-            The place to store various data that you can access at any time
-            through the internet and where you can carry it. This very flexible
-            storage area has a high level of security. To enter into your own
-            data you must enter the password that you created when you
-            registered in this Data Warehouse.
-          </p>
+      <section>
+        <div class="level level_container">
+          <img src="./img/image2.svg" alt="girl multi-tasking" />
+          <div class="level__content">
+            <h2 class="level__content-heading">
+              We are a high-level data storage bank
+            </h2>
+            <p class="level__content-text">
+              The place to store various data that you can access at any time
+              through the internet and where you can carry it. This very
+              flexible storage area has a high level of security. To enter into
+              your own data you must enter the password that you created when
+              you registered in this Data Warehouse.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -113,6 +115,173 @@
           who store data in this Data Warehouse.
         </p>
       </section>
+
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <h2 class="testimonials__container-text">Testimonials</h2>
+
+          <div class="testimonials__container-box">
+            <figure>
+              <div class="testimonials__container-box-img">
+                <img
+                  class="testimonials__container-box-img__img"
+                  src="./img/teri.jpg"
+                  alt="oje quote"
+                />
+                <div>
+                  <figcaption>John Faang</figcaption>
+                  <a
+                    href="https://wordfaang.com"
+                    target="_"
+                    rel="noopener noreferrer"
+                    >wordfaang.com</a
+                  >
+                </div>
+              </div>
+              <blockquote>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+                provident. Nostrum nesciunt corporis, dolorum rerum officia
+                praesentium error impedit voluptates!
+              </blockquote>
+            </figure>
+            <figure>
+              <div class="testimonials__container-box-img">
+                <img
+                  class="testimonials__container-box-img__img"
+                  src="./img/oje.jpg"
+                  alt="teri eyenike"
+                />
+                <div>
+                  <figcaption>Jeny Doe</figcaption>
+                  <small>UX Designer</small>
+                </div>
+              </div>
+              <blockquote>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+                provident. Nostrum nesciunt corporis, dolorum rerum officia
+                praesentium error impedit voluptates!
+              </blockquote>
+            </figure>
+          </div>
+
+          <div class="testimonials__container-carousel">
+            <div class="testimonials__container-carousel-dot">
+              <button
+                class="
+                  testimonials__container-carousel-dot-item
+                  testimonials__container-carousel-dot-item-current
+                "
+              ></button>
+              <button
+                class="testimonials__container-carousel-dot-item"
+              ></button>
+              <button
+                class="testimonials__container-carousel-dot-item"
+              ></button>
+              <button
+                class="testimonials__container-carousel-dot-item"
+              ></button>
+            </div>
+
+            <div class="testimonials__container-carousel-arrow">
+              <span> <i class="fas fa-long-arrow-alt-left"></i></span>
+              <span> <i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <section class="footer footer_container">
+        <div class="footer__left">
+          <h2 class="footer__left-heading">Try for free!</h2>
+          <p class="footer__left-text">
+            <small>Get limited 1 week free try our features!</small>
+          </p>
+        </div>
+        <div class="footer__right">
+          <button class="footer__right-btn">Learn more</button>
+          <button class="footer__right-btn">
+            request demo
+            <span> <i class="fas fa-long-arrow-alt-right"></i></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="footer footer_container">
+        <div class="footer__bottom">
+          <div class="footer__bottom-brand">
+            <img src="./img/logo.svg" alt="DataWarehouse" />
+            <p>DataWarehouse</p>
+          </div>
+          <address class="footer__bottom-address">
+            Warehouse Society, 234 <span>Bahagia Ave Street PRBW 29281 </span>
+          </address>
+          <address class="footer__bottom-address">
+            <a href="mailto:info@warehouse.project">info@warehouse.project</a>
+            <a href="tel:1-232-3434">1-232-3434 (Main)</a>
+          </address>
+        </div>
+        <nav class="footer__bottom">
+          <p class="footer__bottom-nav">about</p>
+          <ul class="footer__bottom-menu">
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Profile</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Features</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Careers</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">DW News</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__bottom">
+          <p class="footer__bottom-nav">help</p>
+          <ul class="footer__bottom-menu">
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Support</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Sign up</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Guide</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Reports</a>
+            </li>
+            <li class="footer__bottom-menu-lists">
+              <a class="footer__bottom-menu-links">Q&A</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="footer__bottom">
+          <p class="footer__bottom-nav">Social Media</p>
+          <ul class="footer__bottom-social">
+            <li>
+              <span>
+                <i class="fab fa-facebook-f"></i>
+              </span>
+            </li>
+            <li>
+              <span>
+                <i class="fab fa-twitter"></i>
+              </span>
+            </li>
+            <li>
+              <span>
+                <i class="fab fa-instagram"></i>
+              </span>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
   </body>
 </html>
