@@ -47,309 +47,38 @@
     <title>HTML & CSS Engineer Mini Project</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar_container">
-        <a href="#">
-          <img src="./img/logo.svg" class="navbar__logo" alt="clickup logo" />
-        </a>
-        <div class="navbar__toggle"></div>
-
-        <div class="navbar__display">
-          <ul class="navbar__menu">
-            <li>
-              <a
-                href="#about"
-                class="navbar__menu-links navbar__menu-links_active"
-                >about</a
-              >
-            </li>
-            <li><a href="#help" class="navbar__menu-links">help</a></li>
-            <li>
-              <a href="#features" class="navbar__menu-links">features</a>
-            </li>
-            <li><a href="#signup" class="navbar__menu-links">signup</a></li>
-          </ul>
-          <button class="navbar__btn">
-            request demo
-            <span> <i class="fas fa-long-arrow-alt-right"></i></span>
-          </button>
+    <header class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__row">
+          <nav class="navbar__menu">
+            <a href="#">
+              <img
+                src="./img/logo.svg"
+                class="navbar__logo"
+                alt="clickup logo"
+              />
+            </a>
+            <ul class="navbar__lists">
+              <li><a href="#" class="navbar__lists-links">about</a></li>
+              <li><a href="#" class="navbar__lists-links">help</a></li>
+              <li><a href="#" class="navbar__lists-links">features</a></li>
+              <li><a href="#" class="navbar__lists-links">signup</a></li>
+              <li class="mobile">
+                <a href="#" class="navbar__lists-links navbar__lists-links-demo"
+                  >request demo
+                  <span> <i class="fas fa-long-arrow-alt-right"></i></span
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <li class="mobile">
+            <a href="#" class="navbar__lists-links navbar__lists-links-demo"
+              >request demo
+              <span> <i class="fas fa-long-arrow-alt-right"></i></span
+            ></a>
+          </li>
         </div>
-      </nav>
+      </div>
     </header>
-    <main>
-      <section class="section section_container">
-        <div class="section__left">
-          <h1 class="section__left-heading">Save your data storage here.</h1>
-          <p class="section__left-text">
-            Data Warehouse is a data storage area that has been tested for
-            security, so you can store your data here safely but not be afraid
-            of being stolen by others.
-          </p>
-          <button class="section__left-btn">learn more</button>
-        </div>
-        <img src="./img/image1 1.svg" alt="save your data" />
-      </section>
-
-      <section>
-        <div class="level level_container">
-          <img src="./img/image2.svg" alt="girl multi-tasking" />
-          <div class="level__content">
-            <h2 class="level__content-heading">
-              We are a high-level data storage bank
-            </h2>
-            <p class="level__content-text">
-              The place to store various data that you can access at any time
-              through the internet and where you can carry it. This very
-              flexible storage area has a high level of security. To enter into
-              your own data you must enter the password that you created when
-              you registered in this Data Warehouse.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="features features_container">
-        <h2 class="features__heading">Features</h2>
-        <p class="features__text">
-          Some of the features and advantages that we provide for those of you
-          who store data in this Data Warehouse.
-        </p>
-
-        <div class="features__grid">
-          <div class="features__grid-box">
-            <img src="./img/image3 1.svg" alt="search data" />
-            <div class="features__grid-box-info">
-              <h3>Search Data</h3>
-              <p>Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-
-              <div class="features__grid-box-info-href">
-                <a href="#" rel="noopener noreferrer">Learn more</a>
-                <span>
-                  <i class="fas fa-long-arrow-alt-right"></i></span>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="features__grid-box">
-            <img src="./img/image4.svg" alt="24 hour access" />
-            <div class="features__grid-box-info">
-              <h3>24 Hours Access</h3>
-              <p>Access is given 24 hours a full morning to night and
-              meet again in the morning, giving you comfort when
-              you need data when urgent.</p>
-
-              <div class="features__grid-box-info-href">
-                <a href="#" rel="noopener noreferrer">Learn more</a>
-                <span>
-                  <i class="fas fa-long-arrow-alt-right"></i></span>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="features__grid-box">
-            <img src="./img/image5 1.svg" alt="print out" />
-            <div class="features__grid-box-info">
-              <h3>Print Out</h3>
-              <p>Print out service gives you convenience if someday
-you need print data, just edit it all and just print it.</p>
-
-              <div class="features__grid-box-info-href">
-                <a href="#" rel="noopener noreferrer">Learn more</a>
-                <span>
-                  <i class="fas fa-long-arrow-alt-right"></i></span>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="features__grid-box">
-            <img src="./img/image6 1.svg" alt="security code" />
-            <div class="features__grid-box-info">
-              <h3>Security Code</h3>
-              <p>Data Security is one of our best facilities. Allows for your files
-to be safer. The file can be secured with a code or password that
-you created, so only you can open the file.</p>
-
-              <div class="features__grid-box-info-href">
-                <a href="#" rel="noopener noreferrer">Learn more</a>
-                <span>
-                  <i class="fas fa-long-arrow-alt-right"></i></span>
-                </span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="testimonials">
-        <div class="testimonials__container">
-          <h2 class="testimonials__container-text">Testimonials</h2>
-
-          <div class="testimonials__container-box">
-            <figure>
-              <div class="testimonials__container-box-img">
-                <img
-                  class="testimonials__container-box-img__img"
-                  src="./img/teri.jpg"
-                  alt="oje quote"
-                />
-                <div>
-                  <figcaption>John Faang</figcaption>
-                  <a
-                    href="https://wordfaang.com"
-                    target="_"
-                    rel="noopener noreferrer"
-                    >wordfaang.com</a
-                  >
-                </div>
-              </div>
-              <blockquote>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
-                provident. Nostrum nesciunt corporis, dolorum rerum officia
-                praesentium error impedit voluptates!
-              </blockquote>
-            </figure>
-            <figure>
-              <div class="testimonials__container-box-img">
-                <img
-                  class="testimonials__container-box-img__img"
-                  src="./img/oje.jpg"
-                  alt="teri eyenike"
-                />
-                <div>
-                  <figcaption>Jeny Doe</figcaption>
-                  <small>UX Designer</small>
-                </div>
-              </div>
-              <blockquote>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
-                provident. Nostrum nesciunt corporis, dolorum rerum officia
-                praesentium error impedit voluptates!
-              </blockquote>
-            </figure>
-          </div>
-
-          <div class="testimonials__container-carousel">
-            <div class="testimonials__container-carousel-dot">
-              <button
-                class="
-                  testimonials__container-carousel-dot-item
-                  testimonials__container-carousel-dot-item-current
-                "
-              ></button>
-              <button
-                class="testimonials__container-carousel-dot-item"
-              ></button>
-              <button
-                class="testimonials__container-carousel-dot-item"
-              ></button>
-              <button
-                class="testimonials__container-carousel-dot-item"
-              ></button>
-            </div>
-
-            <div class="testimonials__container-carousel-arrow">
-              <span> <i class="fas fa-long-arrow-alt-left"></i></span>
-              <span> <i class="fas fa-long-arrow-alt-right"></i></span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <section class="footer footer_container">
-        <div class="footer__left">
-          <h2 class="footer__left-heading">Try for free!</h2>
-          <p class="footer__left-text">
-            <small>Get limited 1 week free try our features!</small>
-          </p>
-        </div>
-        <div class="footer__right">
-          <button class="footer__right-btn">Learn more</button>
-          <button class="footer__right-btn">
-            request demo
-            <span> <i class="fas fa-long-arrow-alt-right"></i></span>
-          </button>
-        </div>
-      </section>
-
-      <section class="footer footer_container">
-        <div class="footer__bottom">
-          <div class="footer__bottom-brand">
-            <img src="./img/logo.svg" alt="DataWarehouse" />
-            <p>DataWarehouse</p>
-          </div>
-          <address class="footer__bottom-address">
-            Warehouse Society, 234 <span>Bahagia Ave Street PRBW 29281 </span>
-          </address>
-          <address class="footer__bottom-address">
-            <a href="mailto:info@warehouse.project">info@warehouse.project</a>
-            <a href="tel:1-232-3434">1-232-3434 (Main)</a>
-          </address>
-        </div>
-        <nav class="footer__bottom">
-          <p class="footer__bottom-nav">about</p>
-          <ul class="footer__bottom-menu">
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Profile</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Features</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Careers</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">DW News</a>
-            </li>
-          </ul>
-        </nav>
-        <nav class="footer__bottom">
-          <p class="footer__bottom-nav">help</p>
-          <ul class="footer__bottom-menu">
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Support</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Sign up</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Guide</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Reports</a>
-            </li>
-            <li class="footer__bottom-menu-lists">
-              <a class="footer__bottom-menu-links">Q&A</a>
-            </li>
-          </ul>
-        </nav>
-
-        <nav class="footer__bottom">
-          <p class="footer__bottom-nav">Social Media</p>
-          <ul class="footer__bottom-social">
-            <li>
-              <span>
-                <i class="fab fa-facebook-f"></i>
-              </span>
-            </li>
-            <li>
-              <span>
-                <i class="fab fa-twitter"></i>
-              </span>
-            </li>
-            <li>
-              <span>
-                <i class="fab fa-instagram"></i>
-              </span>
-            </li>
-          </ul>
-        </nav>
-      </section>
-    </footer>
   </body>
 </html>
