@@ -143,13 +143,14 @@ main {
 
   .level {
     padding: 6.386em 0 9.36em;
+    @include desktop {
+      padding: 1.386em 0 6.36em;
+    }
     &__bg {
       background: #f063b826;
       border-radius: 50px;
       padding: 4em 4em 4em 2em;
-      // padding: 4em 4em 2em 1em;
       &-container {
-        // @include maxWidth;
         max-width: 1117px;
         width: 80%;
         margin: 0 5em;
@@ -165,9 +166,15 @@ main {
       &-heading {
         font-size: 2.5rem;
         margin-bottom: 1.5em;
+        @include desktop {
+          font-size: 1.75rem;
+        }
       }
       &-text {
         font-size: 1.125rem;
+        @include desktop {
+          font-size: 1rem;
+        }
       }
     }
     .level__box-img {

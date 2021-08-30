@@ -508,6 +508,11 @@ main .save__img {
 main .level {
   padding: 6.386em 0 9.36em;
 }
+@media screen and (max-width: 1024px) {
+  main .level {
+    padding: 1.386em 0 6.36em;
+  }
+}
 main .level__bg {
   background: #f063b826;
   border-radius: 50px;
@@ -530,8 +535,18 @@ main .level__right-heading {
   font-size: 2.5rem;
   margin-bottom: 1.5em;
 }
+@media screen and (max-width: 1024px) {
+  main .level__right-heading {
+    font-size: 1.75rem;
+  }
+}
 main .level__right-text {
   font-size: 1.125rem;
+}
+@media screen and (max-width: 1024px) {
+  main .level__right-text {
+    font-size: 1rem;
+  }
 }
 main .level .level__box-img {
   width: 40%;
