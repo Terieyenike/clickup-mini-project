@@ -1,84 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="author" content="Teri Eyenike" />
+    <meta
+      name="description"
+      content="Project-based guide for web developers and devops engineers"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="author" content="Teri Eyenike" />
-  <meta name="description" content="Project-based guide for web developers and devops engineers" />
+    <meta
+      property="og:title"
+      content="Teri Eyenike - HTML & CSS Engineer Mini Project"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/codeg0d/image/upload/v1609859185/3_skg4ne.jpg"
+    />
+    <meta property="og:url" content="https://www.clickup.com" />
+    <meta
+      property="og:description"
+      content="Frontend application for Clickup mini project by Teri"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/codeg0d/image/upload/v1629816138/Logo_ejyrdc.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <script defer src="./dist/js/script.js"></script>
+    <title>HTML & CSS Engineer Mini Project</title>
+  </head>
 
-  <meta property="og:title" content="Teri Eyenike - HTML & CSS Engineer Mini Project" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://res.cloudinary.com/codeg0d/image/upload/v1609859185/3_skg4ne.jpg" />
-  <meta property="og:url" content="https://www.clickup.com" />
-  <meta property="og:description" content="Frontend application for Clickup mini project by Teri" />
-  <link rel="icon" type="image/png"
-    href="https://res.cloudinary.com/codeg0d/image/upload/v1629816138/Logo_ejyrdc.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="./dist/css/styles.css" />
-  <script defer src="./dist/js/script.js"></script>
-  <title>HTML & CSS Engineer Mini Project</title>
-</head>
-
-<body>
-  <header class="navbar">
-    <div class="navbar__container">
-      <div class="navbar__row">
-        <nav class="navbar__menu">
-          <a href="#">
-            <img src="./img/logo.svg" class="navbar__logo" alt="clickup logo" />
-          </a>
-          <ul class="navbar__lists">
-            <li><a href="#" class="navbar__lists-links">about</a></li>
-            <li><a href="#" class="navbar__lists-links">help</a></li>
-            <li><a href="#" class="navbar__lists-links">feature</a></li>
-            <li><a href="#" class="navbar__lists-links">signup</a></li>
-            <!-- <li class="navbar__mobile">
+  <body>
+    <header class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__row">
+          <nav class="navbar__menu">
+            <a href="#">
+              <img
+                src="./img/logo.svg"
+                class="navbar__logo"
+                alt="clickup logo"
+              />
+            </a>
+            <ul class="navbar__lists">
+              <li><a href="#" class="navbar__lists-links">about</a></li>
+              <li><a href="#" class="navbar__lists-links">help</a></li>
+              <li><a href="#" class="navbar__lists-links">feature</a></li>
+              <li><a href="#" class="navbar__lists-links">signup</a></li>
+              <!-- <li class="navbar__mobile">
                 <a href="#" class="navbar__lists-links navbar__lists-links-demo"
                   >request demo
                   <span> <i class="fas fa-long-arrow-alt-right"></i></span
                 ></a>
               </li> -->
-          </ul>
-        </nav>
-        <!-- <div class="navbar__toggle navbar__toggle_menu">
+            </ul>
+          </nav>
+          <!-- <div class="navbar__toggle navbar__toggle_menu">
             <span class="navbar__toggle-bar"></span>
             <span class="navbar__toggle-bar"></span>
             <span class="navbar__toggle-bar"></span>
           </div> -->
-        <li class="navbar__desktop">
-          <a href="#" class="navbar__desktop-links navbar__desktop-links-demo">request demo
-            <span> <i class="fas fa-long-arrow-alt-right"></i></span></a>
-        </li>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="save">
-      <div class="save__container">
-        <div class="save__box">
-          <div class="save__left">
-            <h1 class="save__left-heading">Save your data storage here.</h1>
-            <p class="save__left-text">
-              Data Warehouse is a data storage area that has been tested for
-              security, so you can store your data here safely but not be
-              afraid of being stolen by others.
-            </p>
-            <button class="save__left-btn">Learn more</button>
-          </div>
-          <img src="./img/image1 1.svg" alt="save your data" class="save__img" />
+          <li class="navbar__desktop">
+            <a href="#" class="navbar__desktop-links navbar__desktop-links-demo"
+              >request demo
+              <span> <i class="fas fa-long-arrow-alt-right"></i></span
+            ></a>
+          </li>
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="level">
+    <main>
+      <!-- <section class="save">
+        <div class="save__container">
+          <div class="save__box">
+            <div class="save__left">
+              <h1 class="save__left-heading">Save your data storage here.</h1>
+              <p class="save__left-text">
+                Data Warehouse is a data storage area that has been tested for
+                security, so you can store your data here safely but not be
+                afraid of being stolen by others.
+              </p>
+              <button class="save__left-btn">Learn more</button>
+            </div>
+            <img
+              src="./img/image1 1.svg"
+              alt="save your data"
+              class="save__img"
+            />
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="level">
       <div class="level__bg level__bg-container">
         <div class="level__box">
           <img src="./img/image2.svg" class="level__box-img" alt="girl multi-tasking" />
@@ -96,9 +127,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="feature">
+      <!-- <section class="feature">
       <div class="feature__container">
         <h2 class="feature__heading">Features</h2>
         <p class="feature__text">
@@ -179,10 +210,74 @@
 
         </div>
       </div>
-    </section>
-  </main>
+    </section> -->
 
-  <footer>
+      <!-- <section class="testimonial">
+      <div class="testimonial__container">
+        <div class="testimonial__background">
+          <h2 class="testimonial__heading">Testimonials</h2>
+
+          <div class="testimonial__container-box">
+            <figure>
+              <div class="testimonial__container-box-info">
+                <img class="testimonials__container-box-img__img" src="./img/teri.jpg" alt="teri quote" />
+                <div class="testimonial__container-box-info-text">
+                  <figcaption>John Faang</figcaption>
+                  <a href="https://wordfaang.com" target="_" rel="noopener noreferrer">wordfaang.com</a>
+                </div>
+                <blockquote>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+                  provident. Nostrum nesciunt corporis, dolorum rerum officia
+                  praesentium error impedit voluptates!
+                </blockquote>
+              </div>
+            </figure>
+            <figure>
+              <div class="testimonial__container-box-info">
+                <img class="testimonials__container-box-img__img" src="./img/oje.jpg" alt="oje quote" />
+                <div class="testimonial__container-box-info-text">
+                  <figcaption>Jeny Doe</figcaption>
+                  <p>UX Designer</p>
+                </div>
+                <blockquote>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+                  provident. Nostrum nesciunt corporis, dolorum rerum officia
+                  praesentium error impedit voluptates!
+                </blockquote>
+              </div>
+            </figure>
+
+          </div>
+          <div class="testimonials__container-carousel">
+             <div class="testimonials__container-carousel-dot">
+               <button
+                 class="
+                   testimonials__container-carousel-dot-item
+                   testimonials__container-carousel-dot-item-current
+                 "
+               ></button>
+               <button
+                 class="testimonials__container-carousel-dot-item"
+               ></button>
+               <button
+                 class="testimonials__container-carousel-dot-item"
+               ></button>
+               <button
+                 class="testimonials__container-carousel-dot-item"
+               ></button>
+             </div>
+
+             <div class="testimonials__container-carousel-arrow">
+               <span> <i class="fas fa-long-arrow-alt-left"></i></span>
+               <span> <i class="fas fa-long-arrow-alt-right"></i></span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </section> -->
+    </main>
+
+    <!-- <footer>
     <section class="footer footer_container">
       <div class="footer__left">
         <h2 class="footer__left-heading">Try for free!</h2>
@@ -262,29 +357,28 @@
           <div class="footer__social">
             <p class="footer__social-text">Social Media</p>
             <ul class="footer__social-list">
-            <li>
-              <span>
-                <i class="fab fa-facebook-f"></i>
-              </span>
-            </li>
-            <li>
-              <span>
-                <i class="fab fa-twitter"></i>
-              </span>
-            </li>
-            <li>
-              <span>
-                <i class="fab fa-instagram"></i>
-              </span>
-            </li>
-          </ul>
+              <li>
+                <span>
+                  <i class="fab fa-facebook-f"></i>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <i class="fab fa-instagram"></i>
+                </span>
+              </li>
+            </ul>
           </div>
 
         </div>
       </div>
     </section>
 
-  </footer>
-</body>
-
+  </footer> -->
+  </body>
 </html>
