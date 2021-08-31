@@ -1,3 +1,8 @@
+@mixin xtra {
+  @media screen and (max-width: 2560px) {
+    @content;
+  }
+}
 @mixin desktop {
   @media screen and (max-width: 1024px) {
     @content;
@@ -11,7 +16,13 @@
 }
 
 @mixin mobile {
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 540px) {
+    @content;
+  }
+}
+
+@mixin screen {
+  @media screen and (max-width: 280px) {
     @content;
   }
 }
