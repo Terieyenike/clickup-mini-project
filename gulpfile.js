@@ -4,7 +4,7 @@ const browserSync = require('browser-sync').create();
 
 function style() {
   return gulp
-    .src('../scss/**/*.scss')
+    .src('./scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream());
@@ -16,8 +16,8 @@ function watch() {
       baseDir: './',
     },
   });
-  gulp.watch('../scss/**/*.scss', style);
-  gulp.watch('../*.html').on('change', browserSync.reload);
+  gulp.watch('./scss/**/*.scss', style);
+  gulp.watch('./*.html').on('change', browserSync.reload);
   gulp.watch('./dist/js/**/*.js').on('change', browserSync.reload);
 }
 
